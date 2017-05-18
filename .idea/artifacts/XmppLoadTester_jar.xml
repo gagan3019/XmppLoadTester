@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="XmppLoadTester:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/XmppLoadTester_jar</output-path>
+    <root id="archive" name="XmppLoadTester.jar">
+      <element id="module-output" name="XmppLoadTester" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-im/4.1.1/smack-im-4.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-core/4.1.1/smack-core-4.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jxmpp/jxmpp-core/0.4.2-beta1/jxmpp-core-0.4.2-beta1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jxmpp/jxmpp-util-cache/0.4.2-beta1/jxmpp-util-cache-0.4.2-beta1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-tcp/4.1.1/smack-tcp-4.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-java7/4.1.1/smack-java7-4.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-resolver-javax/4.1.1/smack-resolver-javax-4.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-sasl-javax/4.1.1/smack-sasl-javax-4.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
