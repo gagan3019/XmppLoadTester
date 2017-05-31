@@ -36,14 +36,14 @@ public class RealXmppConnection implements ConnectionListener {
                 .builder()
                 .setSecurityMode(ConnectionConfiguration.SecurityMode.disabled)
                 .setServiceName("chat.jeevansathi.com")
-                .setHost("10.10.18.72")
+                .setHost("")
                 .setPort(5222)
                 .setDebuggerEnabled(false)
                 .setResource("xmppLoadTest-" + StanzaIdUtil.newStanzaId())
                 .setCompressionEnabled(false).build();
 
         connection = new XMPPTCPConnection(config);
-        connection.setPacketReplyTimeout(10 * 1000);
+        connection.setPacketReplyTimeout(60 * 1000);
 
         ReconnectionManager reconnectionManager = ReconnectionManager.getInstanceFor(connection);
         ReconnectionManager.setEnabledPerDefault(true);
@@ -117,7 +117,9 @@ public class RealXmppConnection implements ConnectionListener {
         return chat;
     }
 
-
+    public ChatManager getChatManager() {
+        return chatManager;
+    }
 
     @Override
     public void connected(XMPPConnection xmppConnection) {

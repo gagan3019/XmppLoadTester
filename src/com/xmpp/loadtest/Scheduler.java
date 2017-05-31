@@ -13,7 +13,7 @@ public final class Scheduler {
 
     private final Map<String, RealXmppConnection> CONNECTIONS = new ConcurrentHashMap<>();
     private ExecutorService connectionService = Executors.newFixedThreadPool(50);
-    private ExecutorService operationsService = Executors.newFixedThreadPool(100);
+    private ExecutorService operationsService = Executors.newFixedThreadPool(50);
 
     private ConnectionFactory connectionFactory;
 

@@ -7,16 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1025dd51-efdb-46e7-ba13-2034c5c993f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xmpp/loadtest/CheckStanzaSenderOperation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xmpp/loadtest/XmppUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xmpp/loadtest/extensions/MessageTypeExtension.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xmpp/loadtest/ChatMessageSenderOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xmpp/loadtest/Data.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/XmppLoadTester/com/xmpp/loadtest/Main.class" afterPath="$PROJECT_DIR$/out/production/XmppLoadTester/com/xmpp/loadtest/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/XmppLoadTester/com/xmpp/loadtest/Operation.class" afterPath="$PROJECT_DIR$/out/production/XmppLoadTester/com/xmpp/loadtest/Operation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/XmppLoadTester/com/xmpp/loadtest/RealXmppConnection.class" afterPath="$PROJECT_DIR$/out/production/XmppLoadTester/com/xmpp/loadtest/RealXmppConnection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/XmppLoadTester/com/xmpp/loadtest/Scheduler.class" afterPath="$PROJECT_DIR$/out/production/XmppLoadTester/com/xmpp/loadtest/Scheduler.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java" afterPath="$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xmpp/loadtest/Operation.java" afterPath="$PROJECT_DIR$/src/com/xmpp/loadtest/Operation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xmpp/loadtest/RealXmppConnection.java" afterPath="$PROJECT_DIR$/src/com/xmpp/loadtest/RealXmppConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xmpp/loadtest/Scheduler.java" afterPath="$PROJECT_DIR$/src/com/xmpp/loadtest/Scheduler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,14 +31,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CheckStanzaSenderOperation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/CheckStanzaSenderOperation.java">
+      <file leaf-file-name="Data.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="447">
+              <caret line="9" column="55748" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="55748" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,11 +76,14 @@
         <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/XmppUtils.java" />
         <option value="/Plain text Fragment (CheckStanzaSenderOperation.java:554).txt" />
         <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/Operation.java" />
-        <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/RealXmppConnection.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/buffer1" />
-        <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/Scheduler.java" />
         <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/CheckStanzaSenderOperation.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/buffer2" />
+        <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/Data.java" />
+        <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/Scheduler.java" />
+        <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/ChatMessageSenderOperation.java" />
+        <option value="$PROJECT_DIR$/src/com/xmpp/loadtest/RealXmppConnection.java" />
       </list>
     </option>
   </component>
@@ -94,9 +94,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1366" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="y" value="30" />
+    <option name="width" value="1366" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -113,6 +113,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -160,8 +162,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,6 +178,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xmpp.loadtest" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/xmpp/loadtest" />
       <recent name="$PROJECT_DIR$/src/com/xmpp/loadtest/extensions" />
@@ -199,7 +202,7 @@
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.xmpp.loadtest.Main" />
-      <option name="VM_PARAMETERS" value="" />
+      <option name="VM_PARAMETERS" value="-Xmx2048m" />
       <option name="PROGRAM_PARAMETERS" value="5" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -602,33 +605,37 @@
       <workItem from="1493805271497" duration="11538000" />
       <workItem from="1493886764970" duration="14000" />
       <workItem from="1493892137482" duration="6762000" />
-      <workItem from="1495093570246" duration="7134000" />
+      <workItem from="1495093570246" duration="7819000" />
+      <workItem from="1495123475165" duration="51000" />
+      <workItem from="1496117963815" duration="347000" />
+      <workItem from="1496120068324" duration="9938000" />
+      <workItem from="1496140480951" duration="2449000" />
+      <workItem from="1496153273794" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25448000" />
+    <option name="totallyTimeSpent" value="38949000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.90819675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20986359" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28484848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -640,6 +647,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -660,17 +668,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39897436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39897436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889345" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20986359" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27575758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -685,14 +693,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
@@ -702,19 +702,45 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Scheduler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="153">
+          <caret line="9" column="55748" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="55748" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
-            <marker date="1495106635037" expanded="true" signature="35:203" ph="..." />
-            <marker date="1495106635037" expanded="true" signature="205:247" ph="/**...*/" />
-            <marker date="1495106635037" expanded="false" signature="644:655" ph=" { " />
-            <marker date="1495106635037" expanded="false" signature="698:704" ph=" }" />
-            <marker date="1495106635037" expanded="true" signature="754:992" ph="{...}" />
-            <marker date="1495106635037" expanded="true" signature="1064:1243" ph="{...}" />
-            <marker date="1495106635037" expanded="true" signature="1293:1435" ph="{...}" />
-            <marker date="1495106635037" expanded="true" signature="1482:1656" ph="{...}" />
+            <marker date="1496140235984" expanded="true" signature="35:190" ph="..." />
+            <marker date="1496140235984" expanded="true" signature="284:1021" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/CheckStanzaSenderOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="17" column="79" lean-forward="true" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+          <folding>
+            <marker date="1495106661257" expanded="false" signature="35:485" ph="..." />
+            <marker date="1495106661257" expanded="true" signature="487:530" ph="/**...*/" />
+            <marker date="1495106661257" expanded="true" signature="777:1610" ph="{...}" />
+            <marker date="1495106661257" expanded="true" signature="1686:2413" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="48817" lean-forward="false" selection-start-line="17" selection-start-column="48817" selection-end-line="17" selection-end-column="48817" />
+          <folding>
+            <marker date="1496140235984" expanded="true" signature="35:190" ph="..." />
+            <marker date="1496140235984" expanded="true" signature="284:1021" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -722,8 +748,29 @@
     <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
+          <caret line="17" column="48817" lean-forward="false" selection-start-line="17" selection-start-column="48817" selection-end-line="17" selection-end-column="48817" />
+          <folding>
+            <marker date="1496140235984" expanded="true" signature="35:190" ph="..." />
+            <marker date="1496140235984" expanded="true" signature="284:1021" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1496140235984" expanded="true" signature="35:190" ph="..." />
+            <marker date="1496140235984" expanded="true" signature="284:1021" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -731,7 +778,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1496140235984" expanded="true" signature="35:190" ph="..." />
+            <marker date="1496140235984" expanded="true" signature="284:1021" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -761,35 +811,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/ConnectionProvider.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/DefaultConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <marker date="1495072683590" expanded="true" signature="28:70" ph="/**...*/" />
-            <marker date="1495072683590" expanded="true" signature="207:218" ph=" { " />
-            <marker date="1495072683590" expanded="true" signature="258:264" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/ConnectTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <marker date="1495072683590" expanded="false" signature="35:169" ph="..." />
-            <marker date="1495072683590" expanded="true" signature="171:213" ph="/**...*/" />
-            <marker date="1495072683590" expanded="true" signature="466:555" ph="{...}" />
-            <marker date="1495072683590" expanded="true" signature="593:756" ph="{...}" />
-            <marker date="1495072683590" expanded="true" signature="788:1306" ph="{...}" />
-            <marker date="1495072683590" expanded="true" signature="1343:1870" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,36 +826,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-189">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/PrintRosterOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="40" column="67" lean-forward="false" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/buffer1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-im/4.1.1/smack-im-4.1.1.jar!/org/jivesoftware/smack/chat/ChatMessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/CheckStanzaSenderOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
           <folding>
-            <marker date="1495101399915" expanded="true" signature="47:206" ph="..." />
-            <marker date="1495101399915" expanded="true" signature="208:250" ph="/**...*/" />
-            <marker date="1495101399915" expanded="true" signature="605:680" ph="{...}" />
-            <marker date="1495101399915" expanded="true" signature="756:837" ph="{...}" />
-            <marker date="1495101399915" expanded="false" signature="885:896" ph=" { " />
-            <marker date="1495101399915" expanded="false" signature="921:927" ph=" }" />
-            <marker date="1495101399915" expanded="false" signature="977:988" ph=" { " />
-            <marker date="1495101399915" expanded="false" signature="1008:1014" ph=" }" />
-            <marker date="1495101399915" expanded="false" signature="1055:1066" ph=" { " />
-            <marker date="1495101399915" expanded="false" signature="1085:1091" ph=" }" />
-            <marker date="1495101399915" expanded="false" signature="1124:1135" ph=" { " />
-            <marker date="1495101399915" expanded="false" signature="1151:1157" ph=" }" />
-            <marker date="1495101399915" expanded="true" signature="1205:1410" ph="{...}" />
-            <marker date="1495101399915" expanded="true" signature="1440:1968" ph="{...}" />
-            <marker date="1495101399915" expanded="false" signature="1558:1573" ph=" { " />
-            <marker date="1495101399915" expanded="false" signature="1590:1600" ph=" }" />
-            <marker date="1495101399915" expanded="false" signature="1633:1648" ph=" { " />
-            <marker date="1495101399915" expanded="false" signature="1660:1670" ph=" }" />
-            <marker date="1495101399915" expanded="true" signature="1726:1962" ph="{...}" />
-            <marker date="1495101399915" expanded="true" signature="2059:2471" ph="{...}" />
-            <marker date="1495101399915" expanded="true" signature="2334:2464" ph="{...}" />
+            <marker date="1495106661257" expanded="false" signature="35:485" ph="..." />
+            <marker date="1495106661257" expanded="true" signature="487:530" ph="/**...*/" />
+            <marker date="1495106661257" expanded="true" signature="777:1610" ph="{...}" />
+            <marker date="1495106661257" expanded="true" signature="1686:2413" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/XmppUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <marker date="1495101601198" expanded="false" signature="35:127" ph="..." />
             <marker date="1495101601198" expanded="true" signature="129:173" ph="/**...*/" />
@@ -843,114 +890,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/PrintRosterOperation.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/buffer2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack-core/4.1.1/smack-core-4.1.1.jar!/org/jivesoftware/smack/AbstractXMPPConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="265" column="0" lean-forward="true" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="26" column="86" lean-forward="false" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
           <folding>
-            <marker date="1495072683590" expanded="false" signature="35:100" ph="..." />
-            <marker date="1495072683590" expanded="true" signature="102:144" ph="/**...*/" />
-            <marker date="1495072683590" expanded="true" signature="238:692" ph="{...}" />
+            <marker date="1496140218644" expanded="false" signature="35:203" ph="..." />
+            <marker date="1496140218644" expanded="true" signature="205:247" ph="/**...*/" />
+            <marker date="1496140218644" expanded="false" signature="643:654" ph=" { " />
+            <marker date="1496140218644" expanded="false" signature="697:703" ph=" }" />
+            <marker date="1496140218644" expanded="true" signature="753:991" ph="{...}" />
+            <marker date="1496140218644" expanded="true" signature="1063:1242" ph="{...}" />
+            <marker date="1496140218644" expanded="true" signature="1292:1434" ph="{...}" />
+            <marker date="1496140218644" expanded="true" signature="1481:1655" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Operation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/DefaultConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="40" column="67" lean-forward="false" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
-            <marker date="1495103920869" expanded="true" signature="35:176" ph="..." />
-            <marker date="1495103920869" expanded="true" signature="178:220" ph="/**...*/" />
-            <marker date="1495103920869" expanded="false" signature="384:395" ph=" { " />
-            <marker date="1495103920869" expanded="false" signature="424:430" ph=" }" />
-            <marker date="1495103920869" expanded="false" signature="477:488" ph=" { " />
-            <marker date="1495103920869" expanded="false" signature="506:512" ph=" }" />
-            <marker date="1495103920869" expanded="true" signature="556:699" ph="{...}" />
-            <marker date="1495103920869" expanded="true" signature="796:1264" ph="{...}" />
-            <marker date="1495103920869" expanded="true" signature="992:1157" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/buffer1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/RealXmppConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="45" column="50" lean-forward="false" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-          <folding>
-            <marker date="1495105222254" expanded="false" signature="35:592" ph="..." />
-            <marker date="1495105222254" expanded="true" signature="594:636" ph="/**...*/" />
-            <marker date="1495105222254" expanded="true" signature="1112:2158" ph="{...}" />
-            <marker date="1495105222254" expanded="true" signature="2258:2334" ph="{...}" />
-            <marker date="1495105222254" expanded="false" signature="2368:2379" ph=" { " />
-            <marker date="1495105222254" expanded="false" signature="2411:2417" ph=" }" />
-            <marker date="1495105222254" expanded="true" signature="2522:2617" ph="{...}" />
-            <marker date="1495105222254" expanded="false" signature="2655:2666" ph=" { " />
-            <marker date="1495105222254" expanded="false" signature="2702:2708" ph=" }" />
-            <marker date="1495105222254" expanded="false" signature="2742:2753" ph=" { " />
-            <marker date="1495105222254" expanded="false" signature="2777:2783" ph=" }" />
-            <marker date="1495105222254" expanded="true" signature="2828:3412" ph="{...}" />
-            <marker date="1495105222254" expanded="false" signature="3445:3456" ph=" { " />
-            <marker date="1495105222254" expanded="false" signature="3472:3478" ph=" }" />
-            <marker date="1495105222254" expanded="false" signature="3509:3520" ph=" { " />
-            <marker date="1495105222254" expanded="false" signature="3534:3540" ph=" }" />
-            <marker date="1495105222254" expanded="true" signature="3596:3876" ph="{...}" />
-            <marker date="1495105222254" expanded="false" signature="3950:3961" ph=" { " />
-            <marker date="1495105222254" expanded="false" signature="3995:4001" ph=" }" />
-            <marker date="1495105222254" expanded="true" signature="4089:4349" ph="{...}" />
-            <marker date="1495105222254" expanded="true" signature="4400:4416" ph="{...}" />
-            <marker date="1495105222254" expanded="true" signature="4485:4493" ph="{...}" />
-            <marker date="1495105222254" expanded="true" signature="4550:4558" ph="{...}" />
-            <marker date="1495105222254" expanded="true" signature="4612:4620" ph="{...}" />
-            <marker date="1495105222254" expanded="true" signature="4684:4692" ph="{...}" />
+            <marker date="1495072683590" expanded="true" signature="28:70" ph="/**...*/" />
+            <marker date="1495072683590" expanded="true" signature="207:218" ph=" { " />
+            <marker date="1495072683590" expanded="true" signature="258:264" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding>
-            <marker date="1495106261461" expanded="true" signature="35:215" ph="..." />
-            <marker date="1495106261461" expanded="true" signature="309:57043" ph="{...}" />
-            <marker date="1495106261461" expanded="true" signature="312:619" ph="//..." />
+            <marker date="1496140235984" expanded="true" signature="35:190" ph="..." />
+            <marker date="1496140235984" expanded="true" signature="284:1021" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Scheduler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/RealXmppConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="80" lean-forward="false" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+        <state relative-caret-position="425">
+          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           <folding>
-            <marker date="1495106635037" expanded="true" signature="35:203" ph="..." />
-            <marker date="1495106635037" expanded="true" signature="205:247" ph="/**...*/" />
-            <marker date="1495106635037" expanded="false" signature="644:655" ph=" { " />
-            <marker date="1495106635037" expanded="false" signature="698:704" ph=" }" />
-            <marker date="1495106635037" expanded="true" signature="754:992" ph="{...}" />
-            <marker date="1495106635037" expanded="true" signature="1064:1243" ph="{...}" />
-            <marker date="1495106635037" expanded="true" signature="1293:1435" ph="{...}" />
-            <marker date="1495106635037" expanded="true" signature="1482:1656" ph="{...}" />
+            <marker date="1496143836263" expanded="false" signature="35:592" ph="..." />
+            <marker date="1496143836263" expanded="true" signature="594:636" ph="/**...*/" />
+            <marker date="1496143836263" expanded="true" signature="1112:2147" ph="{...}" />
+            <marker date="1496143836263" expanded="true" signature="2247:2323" ph="{...}" />
+            <marker date="1496143836263" expanded="false" signature="2357:2368" ph=" { " />
+            <marker date="1496143836263" expanded="false" signature="2400:2406" ph=" }" />
+            <marker date="1496143836263" expanded="true" signature="2511:2606" ph="{...}" />
+            <marker date="1496143836263" expanded="false" signature="2644:2655" ph=" { " />
+            <marker date="1496143836263" expanded="false" signature="2691:2697" ph=" }" />
+            <marker date="1496143836263" expanded="false" signature="2731:2742" ph=" { " />
+            <marker date="1496143836263" expanded="false" signature="2766:2772" ph=" }" />
+            <marker date="1496143836263" expanded="true" signature="2817:3401" ph="{...}" />
+            <marker date="1496143836263" expanded="false" signature="3434:3445" ph=" { " />
+            <marker date="1496143836263" expanded="false" signature="3461:3467" ph=" }" />
+            <marker date="1496143836263" expanded="false" signature="3498:3509" ph=" { " />
+            <marker date="1496143836263" expanded="false" signature="3523:3529" ph=" }" />
+            <marker date="1496143836263" expanded="true" signature="3585:3865" ph="{...}" />
+            <marker date="1496143836263" expanded="false" signature="3906:3917" ph=" { " />
+            <marker date="1496143836263" expanded="false" signature="3936:3942" ph=" }" />
+            <marker date="1496143836263" expanded="false" signature="4014:4025" ph=" { " />
+            <marker date="1496143836263" expanded="false" signature="4059:4065" ph=" }" />
+            <marker date="1496143836263" expanded="true" signature="4153:4413" ph="{...}" />
+            <marker date="1496143836263" expanded="true" signature="4464:4480" ph="{...}" />
+            <marker date="1496143836263" expanded="true" signature="4549:4557" ph="{...}" />
+            <marker date="1496143836263" expanded="true" signature="4614:4622" ph="{...}" />
+            <marker date="1496143836263" expanded="true" signature="4676:4684" ph="{...}" />
+            <marker date="1496143836263" expanded="true" signature="4748:4756" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/CheckStanzaSenderOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/ChatMessageSenderOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="63" column="43" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="63" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1496143836311" expanded="false" signature="35:394" ph="..." />
+            <marker date="1496143836311" expanded="true" signature="396:439" ph="/**...*/" />
+            <marker date="1496143836311" expanded="true" signature="3745:4385" ph="{...}" />
+            <marker date="1496143836311" expanded="true" signature="4499:4845" ph="{...}" />
+            <marker date="1496143836311" expanded="true" signature="4921:4999" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xmpp/loadtest/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="9" column="55748" lean-forward="false" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="55748" />
+          <folding />
         </state>
       </provider>
     </entry>
